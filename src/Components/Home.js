@@ -47,7 +47,7 @@ export default function Home() {
               </h1>
               <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                 <a href="../Assets/file/ShagunResume.pdf" className="btn btn-outline-light mr-5" download>Download CV</a>
-                <a href="https://in.linkedin.com/in/shagun-vashisth-7b93b317b" className="btn btn-outline-light mr-5">LinkedIn</a>
+                <a href="https://in.linkedin.com/in/shagun-vashisth-7b93b317b" className="btn btn-outline-light mr-5" target="_blank">LinkedIn</a>
                 {/* <button type="button" className="btn-play" data-toggle="modal"
                   data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                   <span></span>

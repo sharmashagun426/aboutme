@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import profile from '../Assets/img/resize-166117781311332297521661177358463.jpg'
 
 export default function About() {
@@ -31,8 +32,8 @@ export default function About() {
                         <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">Noida</span></h6></div>
                         <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
                     </div>
-                    <a href={""} className="btn btn-outline-primary mr-4">Hire Me</a>
-                    <a href={""} className="btn btn-outline-primary">Learn More</a>
+                    <Link to="" className="btn btn-outline-primary mr-4">Hire Me</Link>
+                    <Link to="" className="btn btn-outline-primary">Learn More</Link>
                 </div>
             </div>
         </div>
